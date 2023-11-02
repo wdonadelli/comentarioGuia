@@ -332,8 +332,8 @@ function Manual(texto) {
 					{re: /\_\_([^_][^_]+)\_\_/,      rp: "<u>$1</u>"},
 					{re: /\[([^\]]+)\]\<([^<>]+)\>/, rp: "<a href=\"$2\" target=\"_blank\">$1</a>"},
 					{re: /\[\]\<([^<>]+)\>/,         rp: "<a href=\"$1\" target=\"_blank\">$1</a>"},
-					{re: /\(([^\)]+)\)\<([^<>]+)\>/, rp: "<figure><img src=\"$2\" alt=\"$1\" /></figure>"},
-					{re: /\(\)\<([^<>]+)\>/,         rp: "<figure><img src=\"$1\" /></figure>"}
+					//FIXME{re: /\(([^\)]+)\)\<([^<>]+)\>/, rp: "<figure><img src=\"$2\" alt=\"$1\" /></figure>"},
+					//FIXME{re: /\(\)\<([^<>]+)\>/,         rp: "<figure><img src=\"$1\" /></figure>"}
 	 			];
 
 				let i = -1;
